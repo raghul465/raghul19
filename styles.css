@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Rock+Salt&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+html
+{
+    height:100%;
+}
+body{
+    background:url("bg1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    color:white;
+    font-family: 'Karma', serif;
+    cursor:pointer;
+    position: relative;
+    padding-bottom:300px;
+    min-height: 100%;
+    box-sizing:border-box;
+}
+#p{
+    font-family: 'Rock Salt', cursive;
+    font-size:larger;
+    margin:10px auto;
+    width:200px;
+    text-align: center;
+    font-size:xx-large;
+}
+#p1{
+    font-family: 'Rock Salt', cursive;
+    margin:25px auto;
+    width:200px;
+    text-align:center;
+    font-size:xx-large;
+}
+#about{
+    font-size:large;
+    margin:50px;
+}
+#image{
+    text-align:center;
+}
+#image img{
+    border-radius: 50%;
+}
+#image a{
+    margin:50px;
+}
+#gif{
+    text-align: center;
+    margin:50px;
+}
+#gif img{
+    border-radius: 50%;
+}
+#edu{
+    margin:100px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+}
+#edu img{
+    border-radius:20px;
+    box-shadow: 10px 10px 5px black;
+}
+#skills{
+    display:flex;
+    margin:50px;
+    gap:100px;
+    justify-content: center;
+    text-align:center;
+    flex-wrap:wrap;
+}
+#skills img{
+    padding:25px;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+#proj{
+    margin:50px;
+    text-align: justify;
+}
+#proj a{
+    text-decoration: none;
+    color:white;
+}
+#proj li{
+    border:1px solid white;
+    padding:20px;
+    margin:20px;
+    box-shadow: 10px 10px 5px black;
+    
+    list-style-position: inside;
+}
+#proj li p{
+    text-indent: 20px;
+}
+#proj li:hover{
+    color:black;
+    background:white;
+    transition:all 1s;
+}
+footer{
+    padding:10px 20px;
+    background:rgba(0,0,0,0.5);
+    color:white;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+}
+#icon{
+    text-align: center;
+}
+#icon a{
+    margin:10px;
+    text-decoration: none;
+    color:white;
+}
+input,textarea{
+    font-family: 'Karma', serif;
+    font-weight: bold;
+    resize:none;
+    padding: 5px;
+    border:1px solid black;
+}
